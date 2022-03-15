@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 Parts | Nuevas métricas de la ciencia en red</title>
+  <title>Chapter 1 Introducción | Nuevas métricas de la ciencia en red</title>
   <meta name="description" content="Manual relacionado con la asignatura ’Nuevas métircas de la ciencia en red, dentro del Máster en Información Científica de la Universidad de Granada." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 Parts | Nuevas métricas de la ciencia en red" />
+  <meta property="og:title" content="Chapter 1 Introducción | Nuevas métricas de la ciencia en red" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://elrobin.github.io/nuevas_metricas" />
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 Parts | Nuevas métricas de la ciencia en red" />
+  <meta name="twitter:title" content="Chapter 1 Introducción | Nuevas métricas de la ciencia en red" />
   
   <meta name="twitter:description" content="Manual relacionado con la asignatura ’Nuevas métircas de la ciencia en red, dentro del Máster en Información Científica de la Universidad de Granada." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="cross.html"/>
-<link rel="next" href="footnotes-and-citations.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="cross.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -220,21 +220,229 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="parts" class="section level1" number="3">
-<h1><span class="header-section-number">Chapter 3</span> Parts</h1>
-<p>You can add parts to organize one or more book chapters together. Parts can be inserted at the top of an .Rmd file, before the first-level chapter heading in that same file.</p>
-<p>Add a numbered part: <code># (PART) Act one {-}</code> (followed by <code># A chapter</code>)</p>
-<p>Add an unnumbered part: <code># (PART\*) Act one {-}</code> (followed by <code># A chapter</code>)</p>
-<p>Add an appendix as a special kind of un-numbered part: <code># (APPENDIX) Other stuff {-}</code> (followed by <code># A chapter</code>). Chapters in an appendix are prepended with letters instead of numbers.</p>
+<div id="intro" class="section level1" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Introducción</h1>
+<p>Este capítulo haremos un pequeño recorrido desde la bibliometría tradicional hasta las denominadas <em>altmetrics</em> o altmétricas, una batería de indicadores en pleno desarrollo teórico y metodológico, caracterizadas por su naturaleza digital, reflejo de las transformaciones que ha sufrido la comunicación científica en las últimas décadas, como resultado de su traslación a la red.</p>
+<p>Revisaremos su aparición y propuesta inicial, así como su evolución a lo largo de los años. Finalmente discutiremos las implicaciones que ha tenido para el desarrollo de la bibliometría así como las limitaciones conceptuales y técnicas a las que se enfrenta hoy día.</p>
+<div id="de-las-citas-a-las-altmétricas" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> De las citas a las altmétricas</h2>
+<p>La bibliometría tradicional, basada en la publicación científica en revistas académicas y la medición de su impacto a través de la citación, comenzó su desarrollo en los años 60 y 70, siguiendo los pasos de sus precursores, Eugene Garfield, Robert Merton y Derek de Solla Price.</p>
+<p>Ellos son los encargados de establecer los cimientos de una disciplina que transformará el modo en que la investigación es gestionada y evaluada. Sus principales aportaciones son las siguientes:</p>
+<ol style="list-style-type: decimal">
+<li><p>La creación de los llamados índices de citas <span class="citation">(<a href="#ref-garfieldScienceCitationIndex1964" role="doc-biblioref">Garfield 1964</a>)</span>, hoy accesibles a través de bases de datos como Web of Science, Scopus o Google Scholar.</p></li>
+<li><p>La conceptualización de la cita como medida de reconocimiento y prestigio social en la academica <span class="citation">(<a href="#ref-mertonMatthewEffectScience1968" role="doc-biblioref">Merton 1968</a>)</span>.</p></li>
+<li><p>La construcción de los cimientos matemáticos que permiten modelar la forma de producción y citación del conocimiento científico de manera cuantitativa <span class="citation">(<a href="#ref-priceGeneralTheoryBibliometric1976" role="doc-biblioref">Price 1976</a>)</span>.</p></li>
+</ol>
+<p>Esta disciplina ha ido creciendo especialmente en la segunda parte del siglo XX, como una especialidad instrumental al servicio de la evaluación y gestión política de la ciencia. Sin embargo, el nuevo contexto tecnológico con el auge de las redes sociales, el desarrollo de infrastructuras digitales y abiertas para acelerar la comunicación científica (e.g., repositorios, bancos de datos), han transformado el proceso de comunicación científica. La generación de nuevos medios de comunicación como son las redes sociales o los repositorios, abre la puerta al desarrollo de nuevos indicadores cuantitativos.</p>
+<div id="el-almetric-manifesto" class="section level3 unnumbered">
+<h3>El Almetric Manifesto</h3>
+<p>You can label chapter and section titles using <code>{#label}</code> after them, e.g., we can reference Chapter <a href="intro.html#intro">1</a>. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter <a href="#methods"><strong>??</strong></a>.</p>
+</div>
+</div>
+<div id="qué-entendemos-por-altmetrics" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> ¿Qué entendemos por altmetrics?</h2>
+</div>
+<div id="indicadores-y-taxonomías" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Indicadores y taxonomías</h2>
+</div>
+<div id="relación-entre-citas-y-las-altmétricas" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> Relación entre citas y las altmétricas</h2>
+</div>
+<div id="limitaciones-conceptuales-de-las-altmétricas" class="section level2" number="1.5">
+<h2><span class="header-section-number">1.5</span> Limitaciones conceptuales de las altmétricas</h2>
+</div>
+<div id="limitaciones-técnicas-de-las-altmétricas" class="section level2" number="1.6">
+<h2><span class="header-section-number">1.6</span> Limitaciones técnicas de las altmétricas</h2>
+<p>Figures and tables with captions will be placed in <code>figure</code> and <code>table</code> environments, respectively.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="intro.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, .<span class="dv">1</span>, .<span class="dv">1</span>))</span>
+<span id="cb1-2"><a href="intro.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(pressure, <span class="at">type =</span> <span class="st">&#39;b&#39;</span>, <span class="at">pch =</span> <span class="dv">19</span>)</span></code></pre></div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:nice-fig1"></span>
+<img src="nuevas-metricas_files/figure-html/nice-fig1-1.png" alt="Here is a nice figure!" width="80%" />
+<p class="caption">
+Figure 1.1: Here is a nice figure!
+</p>
+</div>
+<p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure <a href="intro.html#fig:nice-fig1">1.1</a>. Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table <a href="intro.html#tab:nice-tab">1.1</a>.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="intro.html#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(</span>
+<span id="cb2-2"><a href="intro.html#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(iris, <span class="dv">20</span>), <span class="at">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</span>
+<span id="cb2-3"><a href="intro.html#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">booktabs =</span> <span class="cn">TRUE</span></span>
+<span id="cb2-4"><a href="intro.html#cb2-4" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<table>
+<caption><span id="tab:nice-tab">Table 1.1: </span>Here is a nice table!</caption>
+<thead>
+<tr class="header">
+<th align="right">Sepal.Length</th>
+<th align="right">Sepal.Width</th>
+<th align="right">Petal.Length</th>
+<th align="right">Petal.Width</th>
+<th align="left">Species</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">5.1</td>
+<td align="right">3.5</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.9</td>
+<td align="right">3.0</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.7</td>
+<td align="right">3.2</td>
+<td align="right">1.3</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.6</td>
+<td align="right">3.1</td>
+<td align="right">1.5</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.0</td>
+<td align="right">3.6</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.4</td>
+<td align="right">3.9</td>
+<td align="right">1.7</td>
+<td align="right">0.4</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.6</td>
+<td align="right">3.4</td>
+<td align="right">1.4</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.0</td>
+<td align="right">3.4</td>
+<td align="right">1.5</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.4</td>
+<td align="right">2.9</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.9</td>
+<td align="right">3.1</td>
+<td align="right">1.5</td>
+<td align="right">0.1</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.4</td>
+<td align="right">3.7</td>
+<td align="right">1.5</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.8</td>
+<td align="right">3.4</td>
+<td align="right">1.6</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.8</td>
+<td align="right">3.0</td>
+<td align="right">1.4</td>
+<td align="right">0.1</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.3</td>
+<td align="right">3.0</td>
+<td align="right">1.1</td>
+<td align="right">0.1</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.8</td>
+<td align="right">4.0</td>
+<td align="right">1.2</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.7</td>
+<td align="right">4.4</td>
+<td align="right">1.5</td>
+<td align="right">0.4</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.4</td>
+<td align="right">3.9</td>
+<td align="right">1.3</td>
+<td align="right">0.4</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.1</td>
+<td align="right">3.5</td>
+<td align="right">1.4</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.7</td>
+<td align="right">3.8</td>
+<td align="right">1.7</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.1</td>
+<td align="right">3.8</td>
+<td align="right">1.5</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+</tbody>
+</table>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-garfieldScienceCitationIndex1964" class="csl-entry">
+Garfield, Eugene. 1964. <span>“Science Citation Index: <span>A</span> New Dimension in Indexing.”</span> <em>Science</em> 144 (3619): 649–54. <a href="https://doi.org/10.1126/science.144.3619.649">https://doi.org/10.1126/science.144.3619.649</a>.
+</div>
+<div id="ref-mertonMatthewEffectScience1968" class="csl-entry">
+Merton, Robert K. 1968. <span>“The <span>Matthew</span> <span>Effect</span> in <span>Science</span> <span>The</span> Reward and Communication Systems of Science Are Considered.”</span> <em>Science</em> 159 (3810): 56–63. <a href="https://doi.org/10.1126/science.159.3810.56">https://doi.org/10.1126/science.159.3810.56</a>.
+</div>
+<div id="ref-priceGeneralTheoryBibliometric1976" class="csl-entry">
+Price, Derek De Solla. 1976. <span>“A General Theory of Bibliometric and Other Cumulative Advantage Processes.”</span> <em>Journal of the American Society for Information Science</em> 27 (5): 292–306. <a href="https://doi.org/10.1002/asi.4630270505">https://doi.org/10.1002/asi.4630270505</a>.
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="cross.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="footnotes-and-citations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="cross.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -265,7 +473,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/03-parts.Rmd",
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/01-intro.Rmd",
 "text": "Edit"
 },
 "history": {
