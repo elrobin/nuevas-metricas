@@ -1,11 +1,51 @@
-# Hello bookdown 
+# Introducción {#intro}
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
+Este capítulo haremos un pequeño recorrido desde la bibliometría tradicional hasta las denominadas _altmetrics_ o altmétricas, una batería de indicadores en pleno desarrollo teórico y metodológico, caracterizadas por su naturaleza digital, reflejo de las transformaciones que ha sufrido la comunicación científica en las últimas décadas, como resultado de su traslación a la red.
 
-## A section
+Revisaremos su aparición y propuesta inicial, así como su evolución a lo largo de los años. Finalmente discutiremos las implicaciones que ha tenido para el desarrollo de la bibliometría así como las limitaciones conceptuales y técnicas a las que se enfrenta hoy día.
 
-All chapter sections start with a second-level (`##`) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
+## De las citas a las altmétricas
 
-### An unnumbered section {-}
+La bibliometría tradicional, basada en la publicación científica en revistas académicas y la medición de su impacto a través de la citación, comenzó su desarrollo en los años 60 y 70, siguiendo los pasos de sus precursores, Eugene Garfield, Robert Merton y Derek de Solla Price.
 
-Chapters and sections are numbered by default. To un-number a heading, add a `{.unnumbered}` or the shorter `{-}` at the end of the heading, like in this section.
+Ellos son los encargados de establecer los cimientos de una disciplina que transformará el modo en que la investigación es gestionada y evaluada. Sus principales aportaciones son las siguientes:
+
+1. La creación de los llamados índices de citas [@garfieldScienceCitationIndex1964], hoy accesibles a través de bases de datos como Web of Science, Scopus o Google Scholar.
+
+2. La conceptualización de la cita como medida de reconocimiento y prestigio social en la academica [@mertonMatthewEffectScience1968].
+
+3. La construcción de los cimientos matemáticos que permiten modelar la forma de producción y citación del conocimiento científico de manera cuantitativa [@priceGeneralTheoryBibliometric1976].
+
+Esta disciplina ha ido creciendo especialmente en la segunda parte del siglo XX, como una especialidad instrumental al servicio de la evaluación y gestión política de la ciencia. Sin embargo, el nuevo contexto tecnológico con el auge de las redes sociales, el desarrollo de infrastructuras digitales y abiertas para acelerar la comunicación científica (e.g., repositorios, bancos de datos), han transformado el proceso de comunicación científica. La generación de nuevos medios de comunicación como son las redes sociales o los repositorios, abre la puerta al desarrollo de nuevos indicadores cuantitativos.
+
+### El Almetric Manifesto {-}
+
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
+## ¿Qué entendemos por altmetrics?
+
+## Indicadores y taxonomías
+
+## Relación entre citas y las altmétricas
+
+## Limitaciones conceptuales de las altmétricas
+
+## Limitaciones técnicas de las altmétricas
+
+
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+
+```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+

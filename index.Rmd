@@ -1,60 +1,42 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "Nuevas métricas de la ciencia en red"
+author: "Daniel Torres-Salinas y Nicolas Robinson-Garcia"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
+knit: 'bookdown::render_book'
 documentclass: book
-bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
-description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::gitbook,
-  set in the _output.yml file.
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+bibliography: [references.bib, packages.bib]
+biblio-style: 'apalike'
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+description: "Manual relacionado con la asignatura 'Nuevas métircas de la ciencia en red, dentro del Máster en Información Científica de la Universidad de Granada."
+url: 'https://elrobin.github.io/nuevas_metricas'
 ---
 
-# About
+# Bienvenidos {-}
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
-
-## Usage 
-
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
-
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
-
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
-
-## Render book
-
-You can render the HTML version of this example book without changing anything:
-
-1. Find the **Build** pane in the RStudio IDE, and
-
-1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
-
-Or build the book from the R console:
-
-```{r, eval=FALSE}
-bookdown::render_book()
+```{r, echo=FALSE, out.width="100%", fig.cap="Imagen de N. Robinson-Garcia"}
+knitr::include_graphics('images/fuente.jpg')
 ```
 
-To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
+En los últimos años se han multiplicado las propuestas sobre nuevos indicadores asociados a aplicaciones de la web social, denominados altmetrics (o métricas alternativas) que se unen a las métricas de uso o usage metrics, vinculadas a las descargas y vistas de los documentos. La suma de estos dos conjuntos han generado un conjunto de métricas que nos permiten analizar, cuantificar la comunicación desde un prisma diferentes. Estos indicadores nos permiten en la actualidad plantear una forma alternativa de evaluar la información científica permitiéndonos comprender mejor los procesos de generación, difusión y diseminación de los documentos científicos y, por tanto, de la comunicación científica en internet en su conjunto
 
-## Preview book
+Esta asignatura está enmarcada dentro del [Máster en Información y Comunicación Científica](https://masteres.ugr.es/informacion-comunicacion-cientifica/) de la [Universidad de Granada](https:://ugr.es). 
 
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
+## Los profesores {-}
 
-```{r eval=FALSE}
-bookdown::serve_book()
-```
+Daniel Torres-Salinas                                 Mini bio
+---------------------                               ------------------------
+![](images/dani-torres-salinas300.png)               Profesor del departamento de Información y Comunicación y director de la Unidad de Evaluación Científica de la Universidad de Granada. [Más info](https://sites.google.com/go.ugr.es/torressalinas)
 
+Nicolas Robinson-Garcia                       Mini bio
+---------------------                        ------------------------
+![](images/nicolas-robinson-garcia300.png)    Profesor del departamento de Información y Comunicación de la Universidad de Granada e investigador Ramón y Cajal. [Más info](https://nrobinsongarcia.com)
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+## Objetivos de la asignatura {-}
+
+- Introducir al alumno a las diversas posibilidades de comunicación social de la ciencia y la tecnología a través de Internet y plataformas digitales y,
+
+- formar a los alumnos en las métricas y métodos de evaluación científica surgidos en torno a las nuevas plataformas de comunicación científica
+
+Para más información consulta la [guía docente de la asignatura](https://masteres.ugr.es/informacion-comunicacion-cientifica/docencia/plan-estudios/guia-docente/M12/56/1/59)
