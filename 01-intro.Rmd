@@ -20,9 +20,25 @@ Esta disciplina ha ido creciendo especialmente en la segunda parte del siglo XX,
 
 ### El Almetric Manifesto {-}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+Toda esta nueva generación de métricas de la ciencia en red, se cristalizan en el Manifiesto Altmetrics (@priemAltmetricsManifestoAltmetrics2010), enunciado por Jason Priem entre otros autores y que culmina un proceso de maduración de nuevas propuestas presentadas como alternativas a las citas, como son los indicadores de uso o descargas (@kurtzUsageBibliometrics2011,@torres-salinasTendenciasMapasCiencia2014) o la Webmetría o Cibermetría (@orduna-maleaCibermetriaMidiendoEspacio2015;@thelwallHistoryWebometrics2012.
+
+Este documento presenta por primera vez las altmétricas como una batería de indicadores alternativos a la citación, caracterizados por ser nativos digitales. El manifiesto denuncia la imposibilidad actual de los científicos de mantenerse al día debido al crecimiento exponencial de las publicaciones, e indica que esta velocidad hace que incluso los indicadores basados en citas sean excesivamente lentos a la hora de captar trabajos potencialmente interesantes. Esto les hace proponer los indicadores basados en menciones en redes sociales como una alternativa rápida y más eficaz.
+
+Además, no se limitan a criticar las citas como medida de impacto, sino que también considera la inclusión de nuevos formatos de publicación, más allá del artículo de revista:
+
+>Altmetrics expand our view of what impact looks like, but also of what’s making the impact. […] Unlike citation metrics, altmetrics will track impact outside the academy, impact of influential but uncited work, and impact from sources that aren’t peer-reviewed. […] The speed of altmetrics presents the opportunity to create real-time recommendation and collaborative filtering systems
 
 ## ¿Qué entendemos por altmetrics?
+
+Las altmétricas son consideradas una forma alternativa de
+medir el impacto de los resultados académicos de la investigación a través de la red social y están destinadas a mejorar y complementar las formas más tradicionales de evaluación mediante citas (@priemAltmetricsManifestoAltmetrics2010). Su nombre tiene su origen en un tuit (@priemTermArticlelevelmetricsIt2010), y aunque suelen confundirse con las denominadas _article-level metrics_ (@neylonArticleLevelMetricsEvolution2009), tienen que ver con la  difusión y visibilidad de la investigación en plataformas sociales, desde la búsqueda social de bibliografía a través de Facebook, a la discusión de resultados vía Twitter e incluyendo cualquier impacto que una publicación o autor pueda tener en la web social (@bar-ilanCitationsScholarsVisibility2012).
+
+```{r matriz-eval, echo=FALSE, out.width="100%", fig.cap="Matriz de evaluación"}
+knitr::include_graphics('images/1-matriz-eval.png')
+```
+
+Si clasificamos las aproximaciones metodológica que se utilizan en la evaluación en cuatro tipos (figura \@ref(fig:matriz-eval), podríamos decir que las altmétricas y los indicadores de uso y descargas representan un cambio de paradigma, al situar el foco de atención en el impacto o la repercusión que tienen los trabajos académicos fuera del entorno académico. 
+
 
 ## Indicadores y taxonomías
 
