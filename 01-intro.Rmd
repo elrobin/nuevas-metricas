@@ -3,7 +3,7 @@
 Este capítulo haremos un pequeño recorrido desde la bibliometría tradicional hasta las denominadas _altmetrics_ o altmétricas, una batería de indicadores en pleno desarrollo teórico y metodológico, caracterizadas por su naturaleza digital, reflejo de las transformaciones que ha sufrido la comunicación científica en las últimas décadas, como resultado de su traslación a la red.
 
 Revisaremos su aparición y propuesta inicial, así como su evolución a lo largo de los años. Finalmente discutiremos las implicaciones que ha tenido para el desarrollo de la bibliometría así como las limitaciones conceptuales y técnicas a las que se enfrenta hoy día.
-
+asdfadf
 ## De las citas a las altmétricas
 
 La bibliometría tradicional, basada en la publicación científica en revistas académicas y la medición de su impacto a través de la citación, comenzó su desarrollo en los años 60 y 70, siguiendo los pasos de sus precursores, Eugene Garfield, Robert Merton y Derek de Solla Price.
