@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Page not found | Nuevas métricas de la ciencia en red</title>
+  <title>Sesión 2 Herramientas y fuentes altmétricas | Nuevas métricas de la ciencia en red</title>
   <meta name="description" content="Manual relacionado con la asignatura ’Nuevas métircas de la ciencia en red, dentro del Máster en Información Científica de la Universidad de Granada." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Page not found | Nuevas métricas de la ciencia en red" />
+  <meta property="og:title" content="Sesión 2 Herramientas y fuentes altmétricas | Nuevas métricas de la ciencia en red" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://elrobin.github.io/nuevas_metricas" />
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Page not found | Nuevas métricas de la ciencia en red" />
+  <meta name="twitter:title" content="Sesión 2 Herramientas y fuentes altmétricas | Nuevas métricas de la ciencia en red" />
   
   <meta name="twitter:description" content="Manual relacionado con la asignatura ’Nuevas métircas de la ciencia en red, dentro del Máster en Información Científica de la Universidad de Granada." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-
+<link rel="prev" href="intro.html"/>
+<link rel="next" href="casos-prácticos.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -206,19 +206,138 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="page-not-found" class="section level1">
-<h1>Page not found</h1>
-<p>The page you requested cannot be found (perhaps it was moved or renamed).</p>
-<p>You may want to try searching to find the page's new location, or use
-the table of contents to find the page you are looking for.</p>
+<div id="sesion2" class="section level1" number="2">
+<h1><span class="header-section-number">Sesión 2</span> Herramientas y fuentes altmétricas</h1>
+<p><img src="images/elprincipedelcampo.png" style="width:100.0%" />
+En esta sesión vamos analizar desde el punto de vista técnico y metodológico cómo funcionan las altmétricas, cómo se identifican las menciones, el procesamiento de datos, las diferentes fuentes desde las que podemos extraer estos datos y cómo podemos plantear un estudio científico a partir de estos indicadores.</p>
+<div id="tipos-de-análisis" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Tipos de análisis</h2>
+<p>Si seguimos el esquema clásico de la bibliometría, existen tres tipos de análisis según el nivel de agregación que empleemos de la unidad de análisis:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Nivel macro</strong>. Referido a estudios que analizan un gran volumen de datos de manera agregada. Estos análisis bibliométricos pueden ofrecer resultados de manera robusta estadísticamente hablando. <em>Ejemplos</em>: análisis de países o de grandes áreas científicas.</p></li>
+<li><p><strong>Nivel meso</strong>. Tiene que ver con análisis de unidades de agregación intermedias, donde los estudios aún muestran resultados bastante robustos y permiten entrar en mayor detalle para explicar los mecanismos detrás de un fenómeno. <em>Ejemplos</em>: análisis de universidades, departamentos, disciplinas.</p></li>
+<li><p><strong>Nivel micro</strong>. Donde el objeto de estudio es el individuo o el paper. Requieren una gran contextualización y suelen tener un carácter descriptivo o exploratorio.</p></li>
+</ol>
+<p>Los indicadores altmétricos se introdujeron con la promesa de facilitar los análisis micro, con muchos autores referiéndose a los mismos como Article-level metrics <span class="citation">(<a href="#ref-neylonArticleLevelMetricsEvolution2009" role="doc-biblioref">Neylon and Wu 2009</a>)</span> o Author-level metrics <span class="citation">(<a href="#ref-orduna-maleaBibliometriaQueViene2016" role="doc-biblioref"><strong>orduna-maleaBibliometriaQueViene2016?</strong></a>; <a href="#ref-torres-salinasPresenciaRedesSociales2014" role="doc-biblioref"><strong>torres-salinasPresenciaRedesSociales2014?</strong></a>)</span>.</p>
+<p><img src="images/2-tipo-analisis.png" style="width:100.0%" /></p>
+<p>Algunos ejemplos en diferentes niveles:</p>
+<ul>
+<li>Altmétricas a nivel revista - <a href="https://journals.plos.org/plosone/">PLOS One</a></li>
+<li>Altmétricas a nivel de autor - <a href="https://profiles.impactstory.org/">ImpactStory</a> - <a href="http://investigacion.ugr.es/ugrinvestiga/static/BuscadorRankingRrss/*/buscar">UGR Investiga</a></li>
+<li>Integración en revistas <a href="https://academic.oup.com/rev/?login=true">Research Evaluation</a></li>
+<li>Integración en repositorios <a href="https://www.biorxiv.org/content/10.1101/2020.07.01.181669v2">bioRxiv</a></li>
+</ul>
+<p>Del mismo modo podemos ver en mayor detalle la información que ofrece Altmetric.com, uno de los principales agregadores altmétricos como veremos más adelante. Esta herramienta ha estado publicando hasta 2020 un listado con <a href="https://www.altmetric.com/top100/home/">los top 100 trabajos con más altmétricas</a>.</p>
+<p><img src="images/2-altmetric.png" style="width:100.0%" /></p>
+</div>
+<div id="fuentes-primarias" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Fuentes primarias</h2>
+<p>Aunque cada vez es menos habitual, gracias a la gran expansión que han tenido los agregadores altmétricos, siempre es posible sacar indicadores de las diferentes fuentes sociales de manera dirigida y específica. Asimismo hay indicadores específicos de cada fuente que muchas veces no se pueden extraer directamente de estos agregadores.</p>
+<p><img src="images/2-twitter.png" style="width:75.0%" /></p>
+<p>Cuestiones importantes a recordar:</p>
+<ul>
+<li>Cada plataforma nos puede ofrecer más de un indicador</li>
+<li>Hay que distinguir entre generalistas y académicas</li>
+<li>Los datos altmétricos se recogen ítem a ítem</li>
+<li>Requieren procesamiento y normalización, coste en tiempo</li>
+<li>Se gana en precisión en los indicadores</li>
+<li>Posibilidad de calcular métricas avanzadas (ARS)</li>
+</ul>
+<p><img src="images/2-indicadores.png" style="width:100.0%" /></p>
+<p>A pesar de las grandes oportunidades que <em>en teoría</em> nos ofrecen las altmétricas en cuanto a cantidad y diversidad de indicadores, lo cierto es que en muchos casos pueden resultar inútiles, ya que <strong>muchas de ellas apenas son capaces de capturar actividad académica</strong>. En esta tabla podemos observar cómo son pocas fuentes las que aglutinan el mayor número de menciones:</p>
+<p><img src="images/2-distro.png" style="width:100.0%" /></p>
+<div id="cómo-se-identifican-las-menciones-en-redes-sociales" class="section level3 unnumbered">
+<h3>¿Cómo se identifican las menciones en redes sociales?</h3>
+<p>Los procesos de búsqueda en las fuentes primarias suelen ser complejos, la dificultad dependerá de la fuente, pero al menos habrá que buscar:</p>
+<ul>
+<li>DOI / página web de la revista</li>
+<li>Título completo del trabajo</li>
+<li>Referencias al trabajo desde terceros</li>
+<li>Diferentes versiones del trabajo (preprint,etc…)</li>
+</ul>
+<p>Con todo, nunca tendremos la certeza de recuperar las métricas relacionadas por ejemplo con artículo.</p>
+</div>
+</div>
+<div id="redes-académicas" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Redes académicas</h2>
+<p>Don’t miss Table <a href="sesion2.html#tab:nice-tab2">2.1</a>.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="sesion2.html#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(</span>
+<span id="cb3-2"><a href="sesion2.html#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(pressure, <span class="dv">10</span>), <span class="at">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</span>
+<span id="cb3-3"><a href="sesion2.html#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">booktabs =</span> <span class="cn">TRUE</span></span>
+<span id="cb3-4"><a href="sesion2.html#cb3-4" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<table>
+<caption><span id="tab:nice-tab2">Table 2.1: </span>Here is a nice table!</caption>
+<thead>
+<tr class="header">
+<th align="right">temperature</th>
+<th align="right">pressure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">0</td>
+<td align="right">0.0002</td>
+</tr>
+<tr class="even">
+<td align="right">20</td>
+<td align="right">0.0012</td>
+</tr>
+<tr class="odd">
+<td align="right">40</td>
+<td align="right">0.0060</td>
+</tr>
+<tr class="even">
+<td align="right">60</td>
+<td align="right">0.0300</td>
+</tr>
+<tr class="odd">
+<td align="right">80</td>
+<td align="right">0.0900</td>
+</tr>
+<tr class="even">
+<td align="right">100</td>
+<td align="right">0.2700</td>
+</tr>
+<tr class="odd">
+<td align="right">120</td>
+<td align="right">0.7500</td>
+</tr>
+<tr class="even">
+<td align="right">140</td>
+<td align="right">1.8500</td>
+</tr>
+<tr class="odd">
+<td align="right">160</td>
+<td align="right">4.2000</td>
+</tr>
+<tr class="even">
+<td align="right">180</td>
+<td align="right">8.8000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="fuentes-secundarias-agregadores-de-altmétricas" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Fuentes secundarias: Agregadores de altmétricas</h2>
+</div>
+<div id="ejemplos-prácticos" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> Ejemplos prácticos</h2>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-neylonArticleLevelMetricsEvolution2009" class="csl-entry">
+Neylon, Cameron, and Shirley Wu. 2009. <span>“Article-<span>Level</span> <span>Metrics</span> and the <span>Evolution</span> of <span>Scientific</span> <span>Impact</span>.”</span> <em>PLOS Biology</em> 7 (11): e1000242. <a href="https://doi.org/10.1371/journal.pbio.1000242">https://doi.org/10.1371/journal.pbio.1000242</a>.
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-
+<a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="casos-prácticos.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -249,7 +368,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/%s",
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/02-herramientas.Rmd",
 "text": "Edit"
 },
 "history": {

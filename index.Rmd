@@ -15,9 +15,7 @@ url: 'https://elrobin.github.io/nuevas_metricas'
 
 # Bienvenidos {-}
 
-```{r, echo=FALSE, out.width="100%", fig.cap="Imagen de N. Robinson-Garcia"}
-knitr::include_graphics('images/fuente.jpg')
-```
+![](images/fuente.jpg){width=100%}
 
 En los últimos años se han multiplicado las propuestas sobre nuevos indicadores asociados a aplicaciones de la web social, denominados altmetrics (o métricas alternativas) que se unen a las métricas de uso o usage metrics, vinculadas a las descargas y vistas de los documentos. La suma de estos dos conjuntos han generado un conjunto de métricas que nos permiten analizar, cuantificar la comunicación desde un prisma diferentes. Estos indicadores nos permiten en la actualidad plantear una forma alternativa de evaluar la información científica permitiéndonos comprender mejor los procesos de generación, difusión y diseminación de los documentos científicos y, por tanto, de la comunicación científica en internet en su conjunto
 
@@ -27,11 +25,11 @@ Esta asignatura está enmarcada dentro del [Máster en Información y Comunicaci
 
 Daniel Torres-Salinas                                 Mini bio
 ---------------------                               ------------------------
-![](images/dani-torres-salinas300.png)               Profesor del departamento de Información y Comunicación y director de la Unidad de Evaluación Científica de la Universidad de Granada. [Más info](https://sites.google.com/go.ugr.es/torressalinas)
+![](images/dani-torres-salinas300.png)              Profesor del departamento de Información y Comunicación y director de la Unidad de Evaluación Científica de la Universidad de Granada. Es investigador en el Grupo de Investigación Estudios Cuantitativos de la Comunicación Científica (EC3). [Más info](https://sites.google.com/go.ugr.es/torressalinas)
 
 Nicolas Robinson-Garcia                       Mini bio
 ---------------------                        ------------------------
-![](images/nicolas-robinson-garcia300.png)    Profesor del departamento de Información y Comunicación de la Universidad de Granada e investigador Ramón y Cajal. [Más info](https://nrobinsongarcia.com)
+![](images/nicolas-robinson-garcia300.png)    Profesor del departamento de Información y Comunicación de la Universidad de Granada e investigador Ramón y Cajal. Es investigador en el Grupo de Investigación Estudios Cuantitativos de la Comunicación Científica (EC3). [Más info](https://nrobinsongarcia.com)
 
 ## Objetivos de la asignatura {-}
 

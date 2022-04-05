@@ -1,4 +1,6 @@
-# Introducción {#intro}
+# Introducción general al curso{#intro}
+
+**IN PROGRESS**
 
 Este capítulo haremos un pequeño recorrido desde la bibliometría tradicional hasta las denominadas _altmetrics_ o altmétricas, una batería de indicadores en pleno desarrollo teórico y metodológico, caracterizadas por su naturaleza digital, reflejo de las transformaciones que ha sufrido la comunicación científica en las últimas décadas, como resultado de su traslación a la red.
 
