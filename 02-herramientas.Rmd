@@ -77,7 +77,7 @@ Para poder descargar tanto de estas fuentes como de otras los datos, *es esencia
 
 Hay tres plataformas de altmétricas que debes conocer. Estas son:
 
-- [Altmetric](http://altmetric.com) - [Video tour](https://drive.google.com/file/d/1a1niqyUrgQt2j2T0KSTlXCV7wgg0JWkd/view?usp=sharing)
+- [Altmetric](http://altmetric.com) - [Video tour](https://drive.google.com/file/d/1a1niqyUrgQt2j2T0KSTlXCV7wgg0JWkd/view?usp=sharing) [@robinson-garciaNuevosDatosNuevas2014]
 - [PlumX](https://plumanalytics.com/). Integrado en Scopus
 - [ImpactStory](https://profiles.impactstory.org/) - [Video tour](https://drive.google.com/file/d/1_waYodcH30L6SLt21K4E5duymifAt4WW/view?usp=sharing)
 
