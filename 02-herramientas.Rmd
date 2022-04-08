@@ -33,7 +33,7 @@ Del mismo modo podemos ver en mayor detalle la información que ofrece Altmetric
 
 Aunque cada vez es menos habitual, gracias a la gran expansión que han tenido los agregadores altmétricos, siempre es posible sacar indicadores de las diferentes fuentes sociales de manera dirigida y específica. Asimismo hay indicadores específicos de cada fuente que muchas veces no se pueden extraer directamente de estos agregadores.
 
-![](images/2-twitter.png){width=75%}
+![](images/2-twitter.png){width=100%}
 
 Cuestiones importantes a recordar:
 
@@ -61,17 +61,43 @@ Los procesos de búsqueda en las fuentes primarias suelen ser complejos, la difi
 
 Con todo, nunca tendremos la certeza de recuperar las métricas relacionadas por ejemplo con artículo.
 
-## Redes académicas
+Vamos a ver algunos ejemplos de utilización de una fuente primaria para obtener altmétricas:
 
-Don't miss Table \@ref(tab:nice-tab2).
+- [Twitter](https://twitter.com/nrobinsongarcia)
+- Cómo se unen las diferentes versiones de un mismo documento - [Arxiv](https://arxiv.org/search/?query=robinson-garcia&searchtype=author&source=header)
 
-```{r nice-tab2, tidy=FALSE}
-knitr::kable(
-  head(pressure, 10), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+Para poder descargar tanto de estas fuentes como de otras los datos, *es esencial manejarse en el mundo de las APIs*. Algunos paquetes en R:
+
+- [rtweet](https://docs.ropensci.org/rtweet/)
+- [wikitaxa](https://docs.ropensci.org/wikitaxa/)
+
+**Para más información sobre el manejo de APIs os recomiendo [este recurso](https://github.com/Wences91/Fuentes_de_informacion/wiki/APIs)**.
 
 ## Fuentes secundarias: Agregadores de altmétricas
 
-## Ejemplos prácticos
+Hay tres plataformas de altmétricas que debes conocer. Estas son:
+
+- [Altmetric](http://altmetric.com) - [Video tour](https://drive.google.com/file/d/1a1niqyUrgQt2j2T0KSTlXCV7wgg0JWkd/view?usp=sharing)
+- [PlumX](https://plumanalytics.com/). Integrado en Scopus
+- [ImpactStory](https://profiles.impactstory.org/) - [Video tour](https://drive.google.com/file/d/1_waYodcH30L6SLt21K4E5duymifAt4WW/view?usp=sharing)
+
+### ¿Cómo trabajan estas fuentes? {-}
+
+1. **Publicación científica**. Se produce la publicación de un producto / output científico (artículo, dataset, working paper)
+2. **Búsqueda de identificadores**. La plataforma busca todos los identificadores con los que cuenta la publicación (URL web de la revista, DOI, PMID, arXiv ID, DOI, ORCID).
+3. **Recuperación de menciones**. Estos identificadores se lanzan contras las diferentes fuentes primarias y se recuperan todas las menciones disponibles sobre la publicación científica.
+
+![](images/2-rosco-altmetric.png){width=100%}
+
+
+## Redes académicas
+
+Precauciones a la hora de utilizar redes académicas:
+
+- No utilizar nunca para labores de evaluación científica y toma de decisiones (asignación plazas, recursos económicos, proyecto etc…) sin contar con el CV real del investigador a fin de comprobar si están todas las publicaciones. 
+- Ser escépticos con los indicadores que proponen algunas redes/perfiles, por ejemplo el indicador i-10 de Google Scholar, el ResearchGate Score… 
+
+A continuación veamos tres redes y sus características que representan tres modelos diferentes de perfiles métricos:
+
+- [Google Scholar Citations](http://scholar.google.com)
+- [ResearchGate](https://www.researchgate.net/)

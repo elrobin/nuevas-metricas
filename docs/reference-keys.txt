@@ -1,7 +1,6 @@
 fig:matriz-eval
 fig:nice-fig1
 tab:nice-tab
-tab:nice-tab2
 intro
 qué-entendemos-por-altmetrics
 indicadores-y-taxonomías
@@ -11,7 +10,6 @@ limitaciones-técnicas-de-las-altmétricas
 sesion2
 tipos-de-análisis
 fuentes-primarias
-redes-académicas
 fuentes-secundarias-agregadores-de-altmétricas
-ejemplos-prácticos
+redes-académicas
 casos-prácticos
